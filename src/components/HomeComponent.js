@@ -35,7 +35,7 @@ class Home extends Component {
                             fontFamily: "KoHo"
                         }}
                         >
-                            Tag Line
+                            Achieve what you dream :
                         </h3>
 
                         <h5 style={{

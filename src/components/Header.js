@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from './logo.png';
 
 
+
 class Header extends Component {
 
     constructor(props) {
@@ -33,7 +34,7 @@ class Header extends Component {
                         }}
                         >
 
-                            <img src={Logo} height="60" width="70"
+                            <img src={Logo} height="80" width="90"
                                 alt="Ristorante con Fusion" />
 
                         </NavbarBrand>
@@ -46,7 +47,7 @@ class Header extends Component {
                             <span className="fa fa-info fa-lg"></span> About Us
                                 </NavLink>
 
-                        <NavLink className="nav-link" to="/menu">
+                        <NavLink className="nav-link" to="/Scheme">
                             <span className="fa fa-list fa-lg"></span> Scheme
                                 </NavLink>
 

@@ -15,7 +15,7 @@ function Footer(props) {
                             <SocialIcon style={{ margin:"auto 1%",height: 45, width: 45 }} url="https://instagram.com/adorable_gupta"  fgColor="white"/>
                             <SocialIcon style={{ margin:"auto 1%",height: 45, width: 45 }} url="https://twitter.com"  fgColor="white"/>
                             <SocialIcon style={{ margin:"auto 1%",height: 45, width: 45 }} url="https://linkedin.com/in/aastha-gupta-90a8461a4"  fgColor="white"/>
-                            <SocialIcon style={{ margin:"auto 1%",height: 45, width: 45 }} url="mailto:guptaastha424@gmail.com" bgColor="black" fgColor="white" />
+                            <SocialIcon style={{ margin:"auto 1%",height: 45, width: 45 }} url="mailto:Aasthagroup1996@gmail.com" bgColor="black" fgColor="white" />
                             </div>
                     
                     <div className="col-12 col-sm-4 align-self-center">
@@ -31,9 +31,9 @@ function Footer(props) {
                         <address>
                         <li><span class="icon icon-map-marker"></span><span class="text">A-1/14, Harsh Vihar, Delhi-93 <br />
 </span></li>
-                        <i className="fa fa-phone fa-lg"></i><a style={{ color: "#DC143C" }}> tel: </a>+91 9213468<br />
-                        <i className="fa fa-envelope fa-lg"></i> mail to:  <a style={{ color: "#DC143C" }} href="mailto:guptaastha424@gmail.com">
-                                 guptaastha424@gmail.com</a>               
+                        <i className="fa fa-phone fa-lg"></i><a style={{ color: "#DC143C" }}> tel: </a>+91 9213464839<br />
+                        <i className="fa fa-envelope fa-lg"></i> mail to:  <a style={{ color: "#DC143C" }} href="mailto:Aasthagroup1996@gmail.com">
+                        aasthagroup1996@gmail.com</a>               
                            
                         </address>
                     </div>

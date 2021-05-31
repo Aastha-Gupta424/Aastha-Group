@@ -29,7 +29,65 @@ body{
 
   }
   
+form{
+  text-align: center;
+  margin: 6% 1%;
 
+}
+.gs{
+  background-color:rgb(221, 75, 57);
+}
+
+.fs{
+  background-color: rgb(59, 89, 152);
+}
+  .bs{
+  font-size: 90%;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  position: relative;
+  padding: 0% 15%;
+  margin: auto;
+  line-height: 2px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.bs span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bs span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.bs:hover span {
+  padding-right: 15%;
+  color: white;
+}
+
+.bs:hover span:after {
+  opacity: 1;
+  right: 0;
+  color: white;
+
+}
+label{
+  text-align: start;
+  margin-left: 17%;
+}
 .hello{
 height: 85vh; 
 margin-left: 12%;
@@ -38,9 +96,11 @@ margin-left: 12%;
   color: white;
 }
  .footer{
-   background-color: rgb(43, 1, 17);
-   color: white;
-   font-Family: KoHo;
+
+  width: 100%;
+  background-color: rgb(43, 1, 17);
+  color: white;
+  font-Family: KoHo;
 
  }   
 @media (max-width: 1200px){
@@ -57,4 +117,18 @@ margin-left: 12%;
       padding: 0%;
       margin: 2%;
     }
+    .bs{
+      width: 100%;
+      font-size: 5%;
+    }
+    .gs{
+      margin-top: -85%;
+      margin-bottom: -315%;
+      margin-left: 200%;
+    }
+    .fs{
+      margin-top: 15%;
+      margin-left: 75%;
+    }
+
 }

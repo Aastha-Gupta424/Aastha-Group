@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Home from './HomeComponent'
 import Footer from './Footer';
+import Log from './LoginComponent';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
 
@@ -15,7 +17,14 @@ class Main extends Component {
 
       <div>
         <Header />
-        <Home />
+        <Switch location={this.props.location}>
+                  <Route path='/home' component={Home} />
+                  {/* <Route exact path='/aboutus' component={AboutPage}/>
+                  <Route exact path='/scheme' component={SchemePage} />
+                  <Route exact path='/contactus' component={ContactPage} /> */}
+                  <Route exact path='/login' component={Log} />
+                  <Redirect to="/home" />
+              </Switch>
         <Footer />
       </div>
     )
