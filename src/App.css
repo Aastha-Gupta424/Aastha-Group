@@ -28,7 +28,31 @@ body{
     text-shadow: 2px 1px 2px rgb(94, 0, 37);
 
   }
+.sin{
+  color: rgb(0, 132, 255);
+  background-Color:white;
+  font-weight:bold;
+  border:rgb(0, 132, 255) 2px; 
+  box-shadow: 2px 2px 2px white;
+}
+.sin:hover{
+  background-color: rgba(22, 141, 252, 0);
+}
+.reg{
+  padding-top: 1%;
+  margin-bottom: 0.5%;
+  padding-left: 12%;
+
+  background-image: url("https://images.pexels.com/photos/1888000/pexels-photo-1888000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+  background-size: cover;
+  background-position-y: center;
+  color:white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgb(27, 0, 11);
   
+}
+
+
 form{
   text-align: center;
   margin: 6% 1%;
@@ -87,6 +111,7 @@ form{
 label{
   text-align: start;
   margin-left: 17%;
+  font-weight: bolder;
 }
 .hello{
 height: 85vh; 
@@ -101,8 +126,14 @@ margin-left: 12%;
   background-color: rgb(43, 1, 17);
   color: white;
   font-Family: KoHo;
+ }  
+ 
+ .log{
+  padding:0.48% 31.5%;
+  margin-left: 81%;
+  width: 100%;
+ }
 
- }   
 @media (max-width: 1200px){
   .hello{
     height: 70vh; 
@@ -121,7 +152,12 @@ margin-left: 12%;
       width: 100%;
       font-size: 5%;
     }
-    .gs{
+    Form{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0ch;
+    }
+    /*.gs{
       margin-top: -85%;
       margin-bottom: -315%;
       margin-left: 200%;
@@ -129,6 +165,10 @@ margin-left: 12%;
     .fs{
       margin-top: 15%;
       margin-left: 75%;
+    } */
+    .log{
+      margin-left: 0%;
+
     }
 
 }

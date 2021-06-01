@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Row, Col, Label } from 'reactstrap';
 import { Control, Form, Errors, actions } from 'react-redux-form';
+import { Reg } from './RegisterComponent';
 var { SocialIcon } = require('react-social-icons');
 
 class Log extends Component {
@@ -18,7 +19,7 @@ class Log extends Component {
             const validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
         
         return (
-            <Form model="login" onSubmit={(values) => this.handleSubmit(values)}> 
+            <Form className="form" model="login" onSubmit={(values) => this.handleSubmit(values)}> 
             <h1 style={{
                             marginBottom:"1%",
                             marginTop:"-5%",
@@ -31,7 +32,7 @@ class Log extends Component {
                             textShadow:"1px 3px 3px #9D9B9D"
                         }}
                         >
-                            Log In
+                            Sign In
                         </h1>   
                         <h6 
                         style={{
@@ -46,16 +47,16 @@ class Log extends Component {
                         }}
                         >
                             <b>Don't have account yet ? </b>
-                    <a href="#"
+                    <a href="/register" 
                       style={{
                         color:"rgb(13, 158, 255)",
                         textShadow:"1px 3px 3px white"
                     }}
                     >
-                        <strong>Register</strong> </a></h6>            
+                        <strong>Sign Up</strong> </a></h6>            
             <Row className="form-group">
-                <Label  htmlFor="email" md={1} xs={3} >Email</Label>
-                <Col  md={4} xs={5} style={{padding:"auto 0"}}>
+                <Label  htmlFor="email" md={1} xs={2} >Email</Label>
+                <Col xs={4} style={{padding:"auto 0"}}>
                     <Control.text model=".email" id="email" name="email"
                         placeholder="Email"
                         className="form-control"
@@ -73,15 +74,15 @@ class Log extends Component {
                         }}
                      />
                 </Col>
-                <Col md={3} xs={4} style={{alignItems:"end"}}>
+                <Col xs={3} style={{alignItems:"end"}}>
                 <button  class="btn gs bs"><SocialIcon style={{ margin:"auto 1%",height: 38, width: 38 }} url="https://google.com" fgColor="white"/>
                 <span>Google </span></button>
                 </Col>
             </Row>
 
             <Row className="form-group" style={{marginTop:"3%"}}>
-                <Label  htmlFor="password" md={1} xs={3}>Password</Label>
-                <Col  md={4} xs={5}>
+                <Label  htmlFor="password"  md={1} xs={2}>Password</Label>
+                <Col xs={4}>
                     <Control.text model=".password" id="password" name="password"
                         placeholder="Password"
                         className="form-control"
@@ -99,15 +100,16 @@ class Log extends Component {
                         }}
                      />
                 </Col>
-                <Col md={3} xs={4} style={{alignItems:"end"}}>
+                <Col xs={3} style={{alignItems:"end"}}>
                 <button  class="btn fs bs"><SocialIcon style={{ margin:"auto 1%",height: 38, width: 38 }} url="https://facebook.com" fgColor="white"/>
                 <span>Facebook </span></button>
                 </Col>
             </Row>
             
             <Row className="form-group" style={{marginTop:"3%"}}>
-                <Col md={12}  >
-                    <Button style={{padding:"0.48% 31.5%"}} type="submit" color="primary">
+                
+                <Col lg={4} xs={12} >
+                    <Button className="log" type="submit" color="primary">
                     <span>
                         login
                         </span>

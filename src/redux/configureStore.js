@@ -8,7 +8,7 @@ export const ConfigureStore = () => {
     const store = createStore(
       combineReducers({
           ...createForms({
-            feedback: form
+            form: form
         })
       }),
       applyMiddleware(thunk)
