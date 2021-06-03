@@ -11,7 +11,8 @@ body{
   src: local('KoHo'), url(./KoHo/KoHo-Regular.ttf) format('truetype');
 }
  
- 
+
+
  .nav-link{
   font-family: KoHo;
    margin: 0% 3%;
@@ -28,6 +29,16 @@ body{
     text-shadow: 2px 1px 2px rgb(94, 0, 37);
 
   }
+  .sins{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 2px rgb(94, 0, 37);
+  }
+  .sins:hover{
+    color: rgb(94, 0, 37);
+    text-shadow: 2px 1px 2px white;
+    text-decoration: none;
+
+  }
 .sin{
   color: rgb(0, 132, 255);
   background-Color:white;
@@ -42,14 +53,12 @@ body{
   padding-top: 1%;
   margin-bottom: 0.5%;
   padding-left: 12%;
-
-  background-image: url("https://images.pexels.com/photos/1888000/pexels-photo-1888000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+  /* background-image: url("https://images.pexels.com/photos/1888000/pexels-photo-1888000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
   background-size: cover;
-  background-position-y: center;
+  background-position-y: center; */
   color:white;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  text-shadow: 2px 2px 2px rgb(27, 0, 11);
-  
+  background-color: rgba(134, 133, 133, 0.466);
+  box-shadow: 2px 12px 12px rgb(87, 87, 87);
 }
 
 
@@ -115,17 +124,15 @@ label{
 }
 .hello{
 height: 85vh; 
-margin-left: 12%;
 }
 .btn-social-icon{
   color: white;
 }
  .footer{
-
-  width: 100%;
-  background-color: rgb(43, 1, 17);
+ background-color: rgb(43, 1, 17);
   color: white;
   font-Family: KoHo;
+  margin: auto 0px;
  }  
  
  .log{

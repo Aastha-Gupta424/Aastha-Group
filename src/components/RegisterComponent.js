@@ -28,8 +28,8 @@ class Reg extends Component {
                             alignItems:"center",
                             fontWeight: "bolder",
                             fontFamily: "KoHo",
-                            color:"white",
-                            textShadow:"1px 2px 2px rgb(255, 191, 0)"
+                            color:"rgb(94, 0, 37)",
+                            textShadow:"1px 3px 3px #9D9B9D"
                         }}
                         >
                             Sign Up
@@ -40,20 +40,16 @@ class Reg extends Component {
                             textTransform:"uppercase",
                             letterSpacing:"2px" ,
                             marginLeft:"-12%",
-
                             alignItems:"center",
                             fontWeight: "bolder",
                             fontFamily: "KoHo",
-                            color:"white",
-                            textShadow:"1px 3px 3px rgb(0, 132, 255)"
+                            color:"rgb(94, 0, 37)",
+                            textShadow:"1px 3px 3px #9D9B9D"
                         }}
                         >
                             <b>Already have an account ? </b>
                     <a href="/login" 
-                      style={{
-                        color:"rgb(255, 191, 0)",
-                        textShadow:"1px 3px 3px rgb(0, 132, 255)"
-                    }}
+                     className="sins"
                     >
                         <strong>Sign In</strong> </a></h6>
                     <Row className="form-group" >

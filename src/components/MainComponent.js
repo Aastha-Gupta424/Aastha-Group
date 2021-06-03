@@ -5,6 +5,8 @@ import Footer from './Footer';
 import Log from './LoginComponent';
 import Reg from './RegisterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import About from './AboutComponent';
+import Contact from './ContactComponent';
 
 class Main extends Component {
 
@@ -20,8 +22,9 @@ class Main extends Component {
         <Header />
         <Switch location={this.props.location}>
                   <Route path='/home' component={Home} />
-                  {/* <Route exact path='/aboutus' component={AboutPage}/>
-                  <Route exact path='/scheme' component={SchemePage} />*/}
+                  <Route path='/contactus' component={Contact} />
+                   <Route exact path='/aboutus' component={About}/>
+                 {/* <Route exact path='/scheme' component={SchemePage} />*/}
                   <Route exact path='/register' component={Reg} /> 
                   <Route exact path='/login' component={Log} />
                   <Redirect to="/home" />

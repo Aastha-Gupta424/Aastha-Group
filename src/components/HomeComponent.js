@@ -19,9 +19,9 @@ class Home extends Component {
                 <Row>
                     <Col md="6" sm="12">
                         <h1 style={{
-                            fontSize: "92px",
+                            fontSize: "85px",
                             fontWeight: "bolder",
-                            marginTop: "25%",
+                            marginTop: "5%",
                             fontFamily: "KoHo",
                             color:"#2E2E2E",
                             textShadow:"1px 3px 3px #9D9B9D"
@@ -30,6 +30,8 @@ class Home extends Component {
                             Aastha-Group
                         </h1>
 
+                        <br />
+                        
                         <h3 style={{
                             fontWeight: "bold",
                             fontFamily: "KoHo"
@@ -38,12 +40,15 @@ class Home extends Component {
                             Achieve what you dream :
                         </h3>
 
+                        <br />
+
                         <h5 style={{
-                            fontWeight: "bold",
-                            fontFamily: "KoHo"
+                            
+                            fontFamily: "KoHo",
+                            textAlign:"justify"
                         }}
                         >
-                            Description
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         </h5>
                         
                     </Col>
