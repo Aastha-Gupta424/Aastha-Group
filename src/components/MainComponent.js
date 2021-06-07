@@ -6,7 +6,7 @@ import Log from './LoginComponent';
 import Reg from './RegisterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import About from './AboutComponent';
-import Contact from './ContactComponent';
+import GoogleApiWrapper from './ContactComponent';
 
 class Main extends Component {
 
@@ -22,7 +22,7 @@ class Main extends Component {
         <Header />
         <Switch location={this.props.location}>
                   <Route path='/home' component={Home} />
-                  <Route path='/contactus' component={Contact} />
+                  <Route path='/contactus' component={GoogleApiWrapper} />
                    <Route exact path='/aboutus' component={About}/>
                  {/* <Route exact path='/scheme' component={SchemePage} />*/}
                   <Route exact path='/register' component={Reg} /> 

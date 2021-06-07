@@ -53,8 +53,8 @@ class Reg extends Component {
                     >
                         <strong>Sign In</strong> </a></h6>
                     <Row className="form-group" >
-                        <Label htmlFor="firstname" xs={2} >First Name</Label>
-                        <Col md={4} style={{marginLeft:"8.2%"}}>
+                        <Label htmlFor="firstname" xs={3} >First Name</Label>
+                        <Col md={4}>
                             <Control.text model=".firstname" id="firstname" name="firstname"
                                 placeholder="First Name"
                                 className="form-control"

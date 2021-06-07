@@ -1,9 +1,11 @@
 body{
-  background-image: url(
+  /* background-image: url(
     "https://images.pexels.com/photos/904177/pexels-photo-904177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
   );
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #2cccc4;
+  font-Family: KoHo;
  }
 
  @font-face {
@@ -30,8 +32,8 @@ body{
 
   }
   .sins{
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 1px 2px rgb(94, 0, 37);
+    color: black;
+    text-shadow: 1px 1px 1px rgb(156, 156, 156);
   }
   .sins:hover{
     color: rgb(94, 0, 37);
@@ -48,6 +50,7 @@ body{
 }
 .sin:hover{
   background-color: rgba(22, 141, 252, 0);
+  color: rgb(94, 0, 37);
 }
 .reg{
   padding-top: 1%;
@@ -56,9 +59,11 @@ body{
   /* background-image: url("https://images.pexels.com/photos/1888000/pexels-photo-1888000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
   background-size: cover;
   background-position-y: center; */
-  color:white;
-  background-color: rgba(134, 133, 133, 0.466);
-  box-shadow: 2px 12px 12px rgb(87, 87, 87);
+  color:rgb(94, 0, 37);
+background-image: url('./components/img.jpeg');
+background-position-x: center;
+background-size: contain;
+box-shadow: 8px 8px 18px rgb(224, 224, 224);
 }
 
 
@@ -123,16 +128,21 @@ label{
   font-weight: bolder;
 }
 .hello{
-height: 85vh; 
+height: 500px;
+width: 100%;
+margin-top: -20%;
 }
 .btn-social-icon{
   color: white;
 }
  .footer{
- background-color: rgb(43, 1, 17);
-  color: white;
+ background-color: white;
+  color: #0e98aa;
+  font-weight: bold;
   font-Family: KoHo;
-  margin: auto 0px;
+  margin: 0px;
+  padding: 0%;
+  max-width: max-content;
  }  
  
  .log{
@@ -141,13 +151,14 @@ height: 85vh;
   width: 100%;
  }
 
-@media (max-width: 1200px){
+ @media (max-width: 1300px){
   .hello{
-    height: 70vh; 
+    height: 100%; 
     width: 100%;
     margin: 0%;
     
-    }
+    }}
+@media (max-width: 1200px){
     .nav-link{
       font-size: medium;
     }
